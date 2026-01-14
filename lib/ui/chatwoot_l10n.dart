@@ -40,12 +40,20 @@ class ChatwootL10n extends ChatL10n {
       this.inputPlaceholder = "Type your message",
       this.sendButtonAccessibilityLabel = "Send Message",
       this.conversationResolvedMessage =
-          "Your ticket has been marked as resolved"})
+          "Your ticket has been marked as resolved",
+      String and = "and",
+      String isTyping = "is typing",
+      String others = "others",
+      String unreadMessagesLabel = "Unread messages"})
       : super(
             attachmentButtonAccessibilityLabel:
                 attachmentButtonAccessibilityLabel,
             emptyChatPlaceholder: emptyChatPlaceholder,
             fileButtonAccessibilityLabel: fileButtonAccessibilityLabel,
             inputPlaceholder: inputPlaceholder,
-            sendButtonAccessibilityLabel: sendButtonAccessibilityLabel);
+            sendButtonAccessibilityLabel: sendButtonAccessibilityLabel,
+            and: and,
+            isTyping: isTyping,
+            others: others,
+            unreadMessagesLabel: unreadMessagesLabel);
 }
